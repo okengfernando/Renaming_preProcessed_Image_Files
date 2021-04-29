@@ -6,7 +6,7 @@
 
 import os
   
-os.chdir('/mnt/7680BDCD80BD9459/PAR client/sourcing_task RFI0006/collated files')   #insert path to your raw images
+os.chdir('/home/fernando/raw_script_processor/collated/collated_IR_images')   #insert path to your raw images
 print(os.getcwd())      #displays current working directory
 COUNT = 1
   
@@ -19,7 +19,7 @@ def increment():
 
 for f in os.listdir():
     f_name, f_ext = os.path.splitext(f) 
-    f_name = "RFI006_PAR08_Vertical, 1m GSD_SAR-Aviation_0" + str(COUNT)  #insert desired output format eg RFI006_PAR08_Vertical, 1m GSD_SAR-Aviation_0
+    f_name = "RFI007_PAR09_ Vertical, 1m GSD_Wildfire_EO-IR_0" + str(COUNT)  #insert desired output format eg RFI006_PAR08_Vertical, 1m GSD_SAR-Aviation_0
     increment()
     
     new_name = '{} {}'.format(f_name, f_ext)
