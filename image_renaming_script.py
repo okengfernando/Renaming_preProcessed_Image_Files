@@ -9,8 +9,8 @@ import sys
 
 def main():
 
-    FOLDER_PATH = '/mnt/7680BDCD80BD9459/PAR client/sourcing_task RFI009_PAR-0d_Vertical 1m GSD_Bow River South/new collated'  #insert path to your raw images
-    FILE_NAME = "RFI009_PAR-0d_Vertical 1m GSD_Bow River South_0"   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
+    FOLDER_PATH = '/mnt/7680BDCD80BD9459/PAR client/SOURCING _tASK_RFI0010/collated/more_collated'  #insert path to your raw images
+    FILE_NAME = "RFI010_PAR-0f_Vertical 1m GSD_Wilderness Infrastructure_0"   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
 
     for i in FILE_NAME:
         if "/" == i:
@@ -19,7 +19,7 @@ def main():
     os.chdir(FOLDER_PATH)   
     print(os.getcwd())      #displays current working directory
     global COUNT 
-    COUNT = 2815
+    COUNT = 0
     
     # Function to increment count 
     # to make the files sorted.
