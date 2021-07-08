@@ -10,7 +10,7 @@ import sys
 def main():
 
     FOLDER_PATH = ' '  #insert path to your raw images
-    FILE_NAME = " "   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
+    FILE_NAME = "RFI011_PAR-0e_Vertical 10cm-1m GSD_Wildfire analysis"   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
 
     for i in FILE_NAME:
         if "/" == i:
