@@ -9,8 +9,8 @@ import sys
 
 def main():
 
-    FOLDER_PATH = '/home/fernando/Desktop/remote_server/Evaluation-for-PAR-05b-SA/human_analysis'  #insert path to your raw images
-    FILE_NAME = "PAR-05b-human-analysis-0"   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
+    FOLDER_PATH = ' '  #insert path to your raw images
+    FILE_NAME = " "   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
 
     for i in FILE_NAME:
         if "/" == i:
