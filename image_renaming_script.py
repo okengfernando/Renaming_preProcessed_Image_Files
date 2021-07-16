@@ -10,7 +10,7 @@ import sys
 def main():
 
     FOLDER_PATH = '/mnt/7680BDCD80BD9459/PAR-client/TRAINING-EVAL-NN/helper-scripts/OUT-DATA/sorted-512'  #insert path to your raw images
-    FILE_NAME = “RFI013_PAR-0b_Vertical-10cm-1m-GSD_Energy-Infrastructure_analysis_0"   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
+    FILE_NAME = 'RFI013_PAR_0b_Vertical_10cm_1m_GSD_Energy_Infrastructure_analysis_0'   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
 
     for i in FILE_NAME:
         if "/" == i:
