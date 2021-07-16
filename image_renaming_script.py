@@ -9,8 +9,8 @@ import sys
 
 def main():
 
-    FOLDER_PATH = '/mnt/7680BDCD80BD9459/PAR-client/TRAINING-EVAL-NN/helper-scripts/OUT-DATA/batch-2/BATCH-1-20210715T122457Z-001/sorted-512'  #insert path to your raw images
-    FILE_NAME = "RFI012_PAR-10_Vertical-10cm-50cm-GSD_Airport-Aerodrome-runway-analysis_0"   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
+    FOLDER_PATH = '/mnt/7680BDCD80BD9459/PAR-client/TRAINING-EVAL-NN/helper-scripts/OUT-DATA/sorted-512'  #insert path to your raw images
+    FILE_NAME = “RFI013_PAR-0b_Vertical-10cm-1m-GSD_Energy-Infrastructure_analysis_0"   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
 
     for i in FILE_NAME:
         if "/" == i:
