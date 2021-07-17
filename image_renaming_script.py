@@ -9,8 +9,8 @@ import sys
 
 def main():
 
-    FOLDER_PATH = '/mnt/7680BDCD80BD9459/PAR-client/TRAINING-EVAL-NN/helper-scripts/OUT-DATA/sorted-512'  #insert path to your raw images
-    FILE_NAME = 'RFI013_PAR_0b_Vertical_10cm_1m_GSD_Energy_Infrastructure_analysis_0'   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
+    FOLDER_PATH = '/mnt/7680BDCD80BD9459/PAR-client/TRAINING-EVAL-NN/helper-scripts/OUT-DATA/Jenifer/sorted-512'  #insert path to your raw images
+    FILE_NAME = 'RFI014_PAR-05_Vertical 10cm-1m GSD_Transportation_0'   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
 
     for i in FILE_NAME:
         if "/" == i:
@@ -33,7 +33,7 @@ def main():
         f_name = FILE_NAME + str(COUNT)  
         increment()
         
-        new_name = '{} {}'.format(f_name, f_ext)
+        new_name = '{}{}'.format(f_name, f_ext)
         os.rename(f, new_name)
         
     print("successfully renamed {} files".format(len(os.listdir())))
