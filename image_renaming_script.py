@@ -9,8 +9,11 @@ import sys
 
 def main():
 
-    FOLDER_PATH = '/home/fernando/Desktop/remote_server/Evaluation-PAR-09-Wildfire-Analysis/images_to_be_processed'  #insert path to your raw images
-    FILE_NAME = 'par-09-evaluate-0'   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
+    FOLDER_PATH = ''  #insert path to your raw images
+    FILE_NAME = ''   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
+
+    if FOLDER_PATH == '' or FILE_NAME == '' or FOLDER_PATH == ' ' or FILE_NAME == ' ':
+        sys.exit("PATH or FILE_NAME cant be left EMPTY!!")
 
     for i in FILE_NAME:
         if "/" == i:
