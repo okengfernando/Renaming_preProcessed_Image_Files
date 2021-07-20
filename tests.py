@@ -2,7 +2,7 @@ import unittest
 import image_renaming_script
 
 class TestFunctions(unittest.TestCase):
-    def test_case_lenght(self):
+    def test_case_length(self):
         pass
 
     def test_case_width(self):
@@ -10,6 +10,10 @@ class TestFunctions(unittest.TestCase):
 
     def test_case_pixel(self):
         pass
+
+    def test_case_points(self):
+        pass
+
         
 
 
