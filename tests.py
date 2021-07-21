@@ -10,10 +10,7 @@ class TestFunctions(unittest.TestCase):
 
     def test_case_pixel(self):
         pass
-
-    def test_case_points(self):
-        pass
-
+    
     def test_image_array_size(self):
         pass
 
