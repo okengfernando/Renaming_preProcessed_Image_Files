@@ -17,6 +17,11 @@ class TestFunctions(unittest.TestCase):
     def test_image_sharpness(self):
         pass
 
+    def test_image_scale(self):
+        pass
+
+    def test_image_sigma(self):
+        pass
         
 
 
