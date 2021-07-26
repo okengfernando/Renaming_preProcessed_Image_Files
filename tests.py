@@ -22,6 +22,9 @@ class TestFunctions(unittest.TestCase):
 
     def test_image_sigma(self):
         pass
+
+    def test_image_augmentation(self):
+        pass
         
 
 
