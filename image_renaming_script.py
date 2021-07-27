@@ -22,7 +22,7 @@ def main():
     os.chdir(FOLDER_PATH)   
     print(os.getcwd())      #displays current working directory
     global COUNT 
-    COUNT = 0 #This variable is what is a  trailing figure that
+    COUNT = 0 #This variable is what is a  trailing figure that is attached to the file_name
     
     # Function to increment count 
     # to make the files sorted.
