@@ -9,8 +9,11 @@ import sys
 
 def main():
 
-    FOLDER_PATH = '/home/fernando/Desktop/remote_server/Evaluation-PAR-09-Wildfire-Analysis/Archive/eval-for-future-WildfireAnalysis'  #insert path to your raw images
-    FILE_NAME = 'par-0e-evaluate-00'   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
+    FOLDER_PATH = '/mnt/7680BDCD80BD9459/PAR-client/TRAINING-EVAL-NN/helper-scripts/OUT-DATA/Danica/sorted-512'  #insert path to your raw images
+    FILE_NAME = 'RFI012_PAR-10_Vertical 10cm-50cm GSD_Airport-Aerodromerunway analysis_0'
+
+    global COUNT 
+    COUNT = 715   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
 
     if FOLDER_PATH == '' or FILE_NAME == '' or FOLDER_PATH == ' ' or FILE_NAME == ' ':
         sys.exit("PATH or FILE_NAME cant be left EMPTY!!")
@@ -21,8 +24,8 @@ def main():
 
     os.chdir(FOLDER_PATH)   
     print(os.getcwd())      #displays current working directory
-    global COUNT 
-    COUNT = 0 #This variable is what is a  trailing figure that is attached to the file_name
+    
+     #This variable is what is a  trailing figure that is attached to the file_name
     
     # Function to increment count 
     # to make the files sorted.
