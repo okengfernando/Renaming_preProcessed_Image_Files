@@ -9,11 +9,11 @@ import sys
 
 def main():
 
-    FOLDER_PATH = '/mnt/7680BDCD80BD9459/PAR-client/TRAINING-EVAL-NN/helper-scripts/OUT-DATA/Danica/sorted-512'  #insert path to your raw images
-    FILE_NAME = 'RFI012_PAR-10_Vertical 10cm-50cm GSD_Airport-Aerodromerunway analysis_0'
+    FOLDER_PATH = ''  #insert path to your raw images
+    FILE_NAME = '' #Insert your Desired Filename
 
     global COUNT 
-    COUNT = 0   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
+    COUNT = 1   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
 
     if FOLDER_PATH == '' or FILE_NAME == '' or FOLDER_PATH == ' ' or FILE_NAME == ' ':
         sys.exit("PATH or FILE_NAME cant be left EMPTY!!")
