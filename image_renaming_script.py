@@ -13,7 +13,7 @@ def main():
     FILE_NAME = 'RFI012_PAR-10_Vertical 10cm-50cm GSD_Airport-Aerodromerunway analysis_0'
 
     global COUNT 
-    COUNT = 715   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
+    COUNT = 0   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
 
     if FOLDER_PATH == '' or FILE_NAME == '' or FOLDER_PATH == ' ' or FILE_NAME == ' ':
         sys.exit("PATH or FILE_NAME cant be left EMPTY!!")
