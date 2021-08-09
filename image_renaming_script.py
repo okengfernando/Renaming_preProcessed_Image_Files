@@ -1,8 +1,8 @@
 '''Author Okeng Fernando --------> okengfernando@gmail.com 
    Ver: Python 3.x'''
 
-# Python program to rename all collated images
-# Into the Desired  
+# Python program to rename all collated images to a desired format
+
 
 import os
 import sys
