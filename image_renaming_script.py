@@ -44,5 +44,17 @@ def main():
         
     print("successfully renamed {} files".format(len(os.listdir())))
 
+def log_start():
+    print("--------------------------------- Starting Script -------------------------------------")
+    print("\n")
+
+def log_done():
+    print("\n")
+    print("************************************** Done! *************************************** ")
+
+
+
 if __name__ == "__main__":
+    log_start()
     main()
+    log_done()
