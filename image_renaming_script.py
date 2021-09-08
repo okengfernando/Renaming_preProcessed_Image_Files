@@ -9,8 +9,8 @@ import sys
 
 def main():
 
-    FOLDER_PATH = ''  #insert path to your raw images
-    FILE_NAME = '' #Insert your Desired Filename
+    FOLDER_PATH = "/mnt/7680BDCD80BD9459/PAR-client/TRAINING-EVAL-NN/Evaluation-Backup/Evaluation-PAR-04/evaluation-videos"  #insert path to your raw images
+    FILE_NAME = 'par-04-evaluate-video-0' #Insert your Desired Filename
 
     global COUNT 
     COUNT = 1   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
@@ -53,7 +53,7 @@ def log_done():
     print("************************************** Done! *************************************** ")
 
 
-
+#Driver code to start script
 if __name__ == "__main__":
     log_start()
     main()
