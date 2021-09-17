@@ -9,7 +9,7 @@ import sys
 
 def main():
 
-    FOLDER_PATH = ""  #insert path to your raw images
+    FOLDER_PATH = "/mnt/7680BDCD80BD9459/PAR-client/TRAINING-EVAL-NN/helper-scripts/OUT-DATA/Jeniffer_Cauton/sorted_448_by_448"  #insert path to your raw images
     FILE_NAME = 'RFI17_PAR-05_Transportation_Vertical_10cm_to_1m-GSD_0' #Insert your Desired Filename
 
     global COUNT 
