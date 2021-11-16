@@ -55,6 +55,6 @@ def log_done():
 
 #Driver code to start script
 if __name__ == "__main__":
-    log_start()
+    log_start() #This log helps us show script is running
     main()
-    log_done()
+    log_done() #This log helps us check if the script is done and complete
