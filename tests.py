@@ -16,6 +16,9 @@ class TestFunctions(unittest.TestCase):
 
     def test_case_sharpness(self):
         pass
+
+    def test_hue_colour_scheme(self):
+        pass
   
 
 if __name__ == "__main__":
