@@ -6,11 +6,14 @@
 
 import os
 import sys
+import time
+
+import progress_bar_helper
 
 def main():
 
-    FOLDER_PATH = " "  #insert path to your raw images
-    FILE_NAME = ' ' #Insert your Desired Filename
+    FOLDER_PATH = "/mnt/7680BDCD80BD9459/UPWK/PAR/SOURCING_TASKS/sourcing_RFI003/raw_images"  #insert path to your raw images
+    FILE_NAME = 'RFI0003-raw-image_0' #Insert your Desired Filename
 
     global COUNT 
     COUNT = 1   #insert desired output format NB: avoid / because it throws a FILE-NOT-FOUND Error
@@ -41,6 +44,8 @@ def main():
         
         new_name = '{}{}'.format(f_name, f_ext)
         os.rename(f, new_name)
+        time.sleep(0.05)
+        progress_bar_helper.progressBar(COUNT, len(os.listdir()),'renaming')
         
     print("successfully renamed {} files".format(len(os.listdir())))
 
