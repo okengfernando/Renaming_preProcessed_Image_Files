@@ -44,8 +44,8 @@ def main():
         
         new_name = '{}{}'.format(f_name, f_ext)
         os.rename(f, new_name)
-        time.sleep(0.05)
-        progress_bar_helper.progressBar(COUNT, len(os.listdir()),'renaming')
+        #time.sleep(0.05)
+        #progress_bar_helper.progressBar(COUNT, len(os.listdir()),'renaming')
         
     print("successfully renamed {} files".format(len(os.listdir())))
 
