@@ -32,6 +32,10 @@ def main():
     
     # Function to increment count 
     # to make the files sorted.
+     # Function to increment count 
+    # to make the files sorted.
+     # Function to increment count 
+    # to make the files sorted.
     def increment():
         global COUNT
         COUNT = COUNT + 1
